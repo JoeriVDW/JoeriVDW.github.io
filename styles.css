@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&family=Poppins:wght@200&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size:22px;
+    line-height: 32px;
+    color: #ffffff;
+    word-wrap:break-word !important;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+a {
+    color: #f0f0f0;
+}
+
+nav {
+    background-color: #1f1f1f;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: #1f1f1f;
+}
+
+/* Main Nav */
+nav a {
+    display: block;
+    padding: 0 20px;
+    font-size: 20px;
+    line-height: 60px;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+/* Hide Dropdowns */
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 60px; /* Line height of main nav */
+}
+
+
+nav ul li:hover > ul {
+    display: inherit;
+}
+
+/* Dropdown */
+nav ul ul li {
+    width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+li > a:after { content:  ' \21B4'; }
+li > a:only-child:after { content: ''; }
