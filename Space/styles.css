@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&display=swap');
+
+body {
+    color: #6685B1;
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+}
+
+.hero--section {
+    background-image: url("images/giphy.webp");
+    background-size: cover;
+    padding: 20px 0 40px 0;
+    text-shadow: 0 0 10px black;
+}
+
+.btn--custom {
+    padding: 10px 15px;
+    background-color: #f0f0f0;
+    color: #6685B1;
+    border: none;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.underline--text {
+    border-bottom: 4px solid #f0f0f0;
+}
+
+.noah--img {
+    width: 400px;
+    height: 50px;
+    margin-bottom: 50px;
+}

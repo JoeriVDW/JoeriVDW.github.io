@@ -1,0 +1,33 @@
+body {
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, serif;
+    font-size: 28px;
+    font-weight: 800;
+    color: #f0f0f0;
+    text-decoration-color: #f0f0f0;
+}
+.container {
+    padding: 30px;
+    margin: 50px 50px;
+    border: #2f2f2f solid 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.bjorn {
+    width: auto;
+    height: 250px;
+    border: #2f2f2f solid 5px;
+    border-radius: 25%;
+    margin-right: 30px;
+}
+
+a:visited, a:focus {
+    color: inherit;
+}
+
+a:hover {
+    color: black;
+}
