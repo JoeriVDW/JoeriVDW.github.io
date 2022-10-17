@@ -5,6 +5,8 @@
     --gray: #2f2f2f;
     --white: #f0f0f0;
 
+
+    --text-color: #A095F5;
     --primary-0: #15202B;
     --primary-1: #112C45;
     --primary-2: #264059;
@@ -36,11 +38,11 @@ body {
 
 .container--info {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 10px;
     height: 100%;
+    margin: 40px;
 }
-
 
 a {
     color: var(--white);
@@ -64,7 +66,6 @@ nav ul li {
 
 /* Main Nav */
 nav a {
-
     display: block;
     padding: 0 20px;
     font-size: 20px;
@@ -75,8 +76,8 @@ nav a {
 
 nav a:hover {
     /*background-color: var(--white);*/
-    color: #fff;
-    text-decoration: underline #fff solid 5%;
+    color: var(--text-color);
+    text-decoration: underline var(--text-color) solid 5%;
 }
 
 /* Hide Dropdowns */
